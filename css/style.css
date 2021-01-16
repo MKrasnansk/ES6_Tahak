@@ -1,0 +1,36 @@
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+/*# sourceMappingURL=style.css.map */
+
+body{
+    min-height: 2500px;
+}
+.h1{
+    background: #ffc600;
+}
+.input{
+    width: 10em;
+    background: #ccc;
+}
+progress{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 1em;
+    border-radius: 0;
+}
+progress[value]::-webkit-progress-value{
+    background: #333;
+}
+.debounce{
+    display: flex;
+    background: #ccc;
+
+}
+.debounce input{
+    border: none;
+    border-bottom: 1px solid #333;
+    border-radius: .3em;
+height: 3em;
+margin: 5em auto;
+}
